@@ -1,0 +1,1 @@
+{"ast":null,"code":"import shopCategoriesInitialState from \"./ShopCategories.initialstate\";\n\nfunction ShopCategoriesReducer(state = shopCategoriesInitialState, action = {}) {\n  switch (action.type) {\n    default:\n      return state;\n  }\n}\n\nexport default ShopCategoriesReducer;","map":null,"metadata":{},"sourceType":"module"}
