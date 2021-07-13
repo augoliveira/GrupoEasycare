@@ -22,11 +22,11 @@ export default function Blog() {
       <div class="container">
 
       <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">Blog Grupo Easy care.</h1>
+            <h1 class="display-4 font-italic">Blog</h1>
             <p class="lead my-3">
-              Acompanhe nossas atualização em nosso blog.
+            Acompanhe as novidades em nosso blog.
             </p>
-          <a class="cta-btn" href="#">Mais post</a>
+          <a class="cta-btn" href="/blog-detalhado">Saiba mais</a>
         </div>
 
       </div>
@@ -42,17 +42,17 @@ export default function Blog() {
             <article class="entry">
 
               <div class="entry-img">
-                <img src="../images/blog-1.jpg" alt="" class="img-fluid"/>
+                <img src="../images/grupoeasycare.com.br__blog-1.webp" alt="" class="img-fluid"/>
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Tendências de decoração para 2021</a>
+                <a href="blog-detalhado">Tendências de decoração para 2021</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                   <li class="d-flex align-items-center">
-                    <i class="icofont-user"></i> <a href="blog-single.html">Grupo Easy care</a></li>
+                    <i class="icofont-user"></i> <a href="grupoeasycare.com.br">Grupo Easy care</a></li>
                   <li class="d-flex align-items-center">
                     <i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">01 de janeiro, 2021</time></a></li>
                 </ul>
@@ -75,7 +75,7 @@ export default function Blog() {
             <article class="entry">
 
               <div class="entry-img">
-                <img src="../images/blog-2.jpg" alt="" class="img-fluid"/>
+                <img src="../images/blog-2.webp" alt="" class="img-fluid"/>
               </div>
 
               <h2 class="entry-title">
@@ -107,7 +107,7 @@ export default function Blog() {
             <article class="entry">
 
               <div class="entry-img">
-                <img src="../images/blog-3.jpg" alt="" class="img-fluid"/>
+                <img src="../images/blog-3.webp" alt="" class="img-fluid"/>
               </div>
 
               <h2 class="entry-title">
@@ -150,9 +150,9 @@ export default function Blog() {
               <div class="entry-meta">
                 <ul>
                   <li class="d-flex align-items-center">
-                    <i class="icofont-user"></i> <a href="blog-single.html">Grupo Easy Care</a></li>
+                    <i class="icofont-user"></i> <a href="grupoeasycare.com.br">Grupo Easy Care</a></li>
                   <li class="d-flex align-items-center">
-                    <i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01"> 20 de Junho 2021</time></a></li>
+                    <i class="icofont-wall-clock"></i> <a href=""><time datetime="2020-01-01"> 20 de Junho 2021</time></a></li>
                 </ul>
               </div>
 

@@ -73,14 +73,6 @@ export default function HeroSlider() {
           </div>
         </li>
       </ul>
-      <div className="slides-navigation">
-        <a href="#" className="next">
-          <i className="fa fa-angle-right" aria-hidden="true"></i>
-        </a>
-        <a href="#" className="prev">
-          <i className="fa fa-angle-left" aria-hidden="true"></i>
-        </a>
-      </div>
     </div>
   );
 }

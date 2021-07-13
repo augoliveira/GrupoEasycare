@@ -5,13 +5,13 @@
       "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
     ]
   },
-  "blog-3-ideias-de-nichos.js -> ../components/OurTeam/OurTeam.container": {
+  "Blog.js -> ../components/OurTeam/OurTeam.container": {
     "id": "./components/OurTeam/OurTeam.container.js",
     "files": [
       "static/chunks/components_OurTeam_OurTeam_container_js.js"
     ]
   },
-  "blog-post.js -> ../components/OurTeam/OurTeam.container": {
+  "blog-detalhado.js -> ../components/OurTeam/OurTeam.container": {
     "id": "./components/OurTeam/OurTeam.container.js",
     "files": [
       "static/chunks/components_OurTeam_OurTeam_container_js.js"

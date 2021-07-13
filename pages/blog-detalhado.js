@@ -45,11 +45,11 @@ export default function Blog() {
             <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="../images/blog-1.jpg" alt="" class="img-fluid"/>
+                <img src="../images/grupoeasycare.com.br__blog-1.webp" alt="" class="img-fluid"/>
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Esteja atento as maiores tendências de decoração de interiores para 2021 que vão dar uma cara nova à sua casa.</a>
+                <a href="/blog-detalhado">Esteja atento as maiores tendências de decoração de interiores para 2021 que vão dar uma cara nova à sua casa.</a>
               </h2>
 
               <div class="entry-meta">
@@ -221,13 +221,13 @@ export default function Blog() {
               <h3 class="sidebar-title"> Posts Recente</h3>
               <div class="sidebar-item recent-posts">
                 <div class="post-item clearfix">
-                  <img src="../images/blog-1.jpg" alt=""/>
+                  <img src="../images/grupoeasycare.com.br__blog-1.webp" alt=""/>
                   <h4><a href="blog-detalhado">Tendências de decoração para 2021</a></h4>
                   <time datetime="2020-01-01">01 de janeiro, 2021</time>
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../images/blog-2.jpg" alt=""/>
+                  <img src="../images/blog-2.webp" alt=""/>
                   <h4><a href="blog-single.html">6 dicas para transformar sua cozinha em 2021</a></h4>
                   <time datetime="2020-01-01">01 de Junho, 2021</time>
                 </div>

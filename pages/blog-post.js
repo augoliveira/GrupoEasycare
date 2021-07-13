@@ -45,7 +45,7 @@ export default function Blog() {
             <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="../images/blog-2.jpg" alt="" class="img-fluid"/>
+                <img src="../images/blog-2.webp" alt="" class="img-fluid"/>
               </div>
 
               <h2 class="entry-title">
@@ -209,25 +209,25 @@ export default function Blog() {
               <h3 class="sidebar-title"> Posts Recente</h3>
               <div class="sidebar-item recent-posts">
                 <div class="post-item clearfix">
-                  <img src="../images/blog-1.jpg" alt=""/>
+                  <img src="../images/grupoeasycare.com.br__blog-1.webp" alt=""/>
                   <h4><a href="blog-detalhado">Tendências de decoração para 2021</a></h4>
                   <time datetime="2020-01-01">01 de janeiro, 2021</time>
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../images/blog-2.jpg" alt=""/>
+                  <img src="../images/blog-2.webp" alt=""/>
                   <h4><a href="blog-single.html">6 dicas para transformar sua cozinha em 2021</a></h4>
                   <time datetime="2020-01-01">01 de Junho, 2021</time>
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../images/blog-3.jpg" alt=""/>
+                  <img src="../images/blog-3.webp" alt=""/>
                   <h4><a href="blog-single.html">Como adotar o minimalismo em casa? 4 passos que vão te ajudar a se beneficiar desta prática e maximizar seu espaço e tempo livre!</a></h4>
                   <time datetime="2020-01-01">28 Janeiro, 2021</time>
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../images/blog-4.jpg" alt=""/>
+                  <img src="../images/blog-4.webp" alt=""/>
                   <h4><a href="blog-single.html">3 ideias de nichos de parede para a sua casa em 2021</a></h4>
                   <time datetime="2020-01-01">20 de Janho, 2021</time>
                 </div>

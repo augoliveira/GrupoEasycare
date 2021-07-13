@@ -813,19 +813,7 @@ ul.cart-list > li.total > .btn:hover {
 .cover-slides {
   height: 85vh;
 }
-.slides-navigation a {
-  background: #bdd430;
-  position: absolute;
-  height: 70px;
-  max-width: 70px;
-  top: 50%;
-  font-size: 20px;
-  display: block;
-  color: #fff;
-  line-height: 90px;
-  text-align: center;
-  transition: all 0.3s ease-in-out;
-}
+
 .slides-navigation a i {
   font-size: 40px;
 }
