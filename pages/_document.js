@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { FB_PIXEL_ID } from '../lib/fpixel'
-import { GA_TRACKING_ID as PROD_GA_TRACKING_ID } from "../utils/gtag";
+import { GA_TRACKING_ID as PROD_GA_TRACKING_ID } from "../lib/gtag";
 
 
     // Use dummy ga id if not in production. Not sure if this is best way but works for now.

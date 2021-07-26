@@ -46,7 +46,7 @@ export default function Blog() {
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-detalhado">Tendências de decoração para 2021</a>
+                <a href="/blog-detalhado">Tendências de decoração para 2021</a>
               </h2>
 
               <div class="entry-meta">

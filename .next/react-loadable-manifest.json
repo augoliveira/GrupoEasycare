@@ -11,7 +11,7 @@
       "static/chunks/components_OurTeam_OurTeam_container_js.js"
     ]
   },
-  "blog-detalhado.js -> ../components/OurTeam/OurTeam.container": {
+  "blog-post3.js -> ../components/OurTeam/OurTeam.container": {
     "id": "./components/OurTeam/OurTeam.container.js",
     "files": [
       "static/chunks/components_OurTeam_OurTeam_container_js.js"

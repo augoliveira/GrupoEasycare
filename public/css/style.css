@@ -1235,7 +1235,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #ff5821;
+  color: #001b59;
 }
 
 .blog .entry .entry-meta {
@@ -1279,7 +1279,7 @@ ul.cart-list > li.total > .btn:hover {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #ff5821;
+  background: #001b59;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1287,7 +1287,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #ff774a;
+  background: #001b59;
 }
 
 .blog .entry .entry-content h3 {
@@ -1358,7 +1358,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #ff5821;
+  color: #001b59;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1468,7 +1468,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #ff5821;
+  color: #001b59;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -1541,7 +1541,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #ff5821;
+  background-color: #001b59;
 }
 
 .blog .blog-pagination {
@@ -1571,8 +1571,8 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #ff5821;
-  border: 1px solid #ff5821;
+  background: #001b59;
+  border: 1px solid #001b59;
 }
 
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
@@ -1655,7 +1655,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #ff5821;
+  color: #001b59;
 }
 
 .blog .sidebar .categories ul a span {
@@ -1685,7 +1685,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #ff5821;
+  color: #001b59;
 }
 
 .blog .sidebar .recent-posts time {
@@ -1721,8 +1721,8 @@ ul.cart-list > li.total > .btn:hover {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #ff5821;
-  background: #ff5821;
+  border: 1px solid #001b59;
+  background: #001b59;
 }
 
 .blog .sidebar .tags ul a span {
