@@ -64,7 +64,7 @@ export default function Blog() {
                 Viramos a página de 2020 e recebemos 2021 com esperança, otimismo e energia renovada.
                 </p>
                 <div class="read-more">
-                  <a href="/blog-detalhado">Continuar lendo</a>
+                  <a href="/blog-detalhado"><strong>Leia mais</strong></a>
                 </div>
               </div>
 
@@ -96,7 +96,7 @@ export default function Blog() {
                 Muitas pessoas concordam que a cozinha é um dos melhores lugares da casa para se passar bons momentos em família.
                 </p>
                 <div class="read-more">
-                  <a href="/blog-post">Continuar lendo</a>
+                  <a href="/blog-post"><strong>Leia mais</strong></a>
                 </div>
               </div>
 
@@ -129,7 +129,7 @@ export default function Blog() {
                 Sabe aquela casa que quando você visita seu pensamento <strong> “fala” </strong> internamente: <strong>wowww! </strong> Então, gostaria de ter essa mesma sensação ao olhar a sua?
                 </p>
                 <div class="read-more">
-                  <a href="/blog-post3">Leia mais</a>
+                  <a href="/blog-post3"><strong>Leia mais</strong></a>
                 </div>
               </div>
 
@@ -162,7 +162,7 @@ export default function Blog() {
                 o que antes deveria ser uma parede linda e bem paramentada, acaba virando um caos e poluindo visualmente os ambientes. 
                 </p>
                 <div class="read-more">
-                  <a href="/blog-3-ideias-de-nichos">Continuar lendo</a>
+                  <a href="/blog-3-ideias-de-nichos"><strong>Leia mais</strong></a>
                 </div>
               </div>
 
