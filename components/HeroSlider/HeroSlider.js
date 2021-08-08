@@ -5,7 +5,8 @@ export default function HeroSlider() {
     <div id="slides-shop" className="cover-slides">
       <ul className="slides-container">
         <li className="text-center">
-          <img src="images/Easy-Care-slide1.jpg" alt="Grupo easy care móveis planejados slide1" />
+          <img src="images/Easy-Care-slide1.jpg" alt="Grupo easy care Construindo e cuidando dos seus
+            Sonhos." />
           <div className="container">
             <div className="row">
               <div className="col-md-12 px-0">
@@ -16,10 +17,10 @@ export default function HeroSlider() {
                 </h1>
                 <p className="m-b-40">
                 Construindo e cuidando dos seus{" "}
-                   Sonhos.
+                  Sonhos.
                 </p>
                 <p>
-                  <a className="btn hvr-hover" href="#">
+                  <a className="btn hvr-hover" href="/contato">
                     Orçamento
                   </a>
                 </p>
@@ -28,7 +29,7 @@ export default function HeroSlider() {
           </div>
         </li>
         <li className="text-center">
-          <img src="images/Easy-Care-slide-2.jpg" alt="Grupo easy care móveis planejados slide2" />
+          <img src="images/Easy-Care-slide-2.jpg" alt="Grupo easy care móveis planejados" />
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -42,7 +43,7 @@ export default function HeroSlider() {
                    e vamos te entregar resultados.
                 </p>
                 <p>
-                  <a className="btn hvr-hover" href="grupoeasycare.com.br/contato">
+                  <a className="btn hvr-hover" href="/contato">
                     Contato
                   </a>
                 </p>
@@ -64,7 +65,7 @@ export default function HeroSlider() {
                 Temos soluções perfeitas{" para o seu projeto."} 
                 </p>
                 <p>
-                  <a className="btn hvr-hover" href="https://api.whatsapp.com/send?phone=555561998581779">
+                  <a className="btn hvr-hover" href="https://api.whatsapp.com/send?phone=5561998581779">
                     vendas
                   </a>
                 </p>

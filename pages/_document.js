@@ -65,12 +65,12 @@ class MyDocument extends Document {
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <title>Grupo Easy care | Móveis Planejados</title>
+          <title>Grupo Easy care | ambientes planejados</title>
           <meta name="keywords" content="móveis planejados para todos os estados fins. Móveis Para Sala. Móveis Para Banheiro.
            Móveis Para Cozinha. Móveis Para Quarto. Planejados De Qualidade. Modelos: Cozinha Planejada, Sala Planejada, Quarto Planejado, Banheiro Planejado." />
           <meta name="description" content="móveis planejados para todos os estados do Brasil. Móveis Para Sala. Móveis Para Banheiro. Móveis Para Cozinha. Móveis Para Quarto. Planejados De Qualidade. Modelos:
            Cozinha Planejada, Sala Planejada, Quarto Planejado, Banheiro Planejado." />
-          <meta name="author" content="" />
+          <meta name="author" content="Augusto desenvolvedor" />
 
           <link
             rel="shortcut icon"
