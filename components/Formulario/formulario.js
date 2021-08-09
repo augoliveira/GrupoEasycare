@@ -178,12 +178,9 @@ export default function formulario() {
               
             </form>
           </div>
-             </div>
-               </div>
-               
-               
-            
-          
+</div>
+</div>
+
   );
 }
 

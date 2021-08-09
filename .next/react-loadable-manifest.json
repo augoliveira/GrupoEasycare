@@ -4,5 +4,12 @@
     "files": [
       "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
     ]
+  },
+  "contato.js -> ../components/OurTeam/OurTeam.container": {
+    "id": "./components/OurTeam/OurTeam.container.js",
+    "files": [
+      "static/chunks/vendors-node_modules_babel_runtime_helpers_esm_defineProperty_js-node_modules_react-redux_es_-11f860.js",
+      "static/chunks/components_OurTeam_OurTeam_container_js.js"
+    ]
   }
 }
