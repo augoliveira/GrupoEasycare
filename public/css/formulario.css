@@ -1,0 +1,245 @@
+
+.Orçamento {
+  background: url("../images/contato-easy.png") no-repeat center center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 70px 0px;
+  position: relative;
+}
+
+.Formulario {
+  background: url("../images/contato-whatsapp-easy.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 70px 0px;
+  position: relative;
+  background-color: #bdd430;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1-1 {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+p.sub-title {
+  color: rgb(39, 39, 39);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.contato-container {
+  overflow: auto; /* forces clearing of the child float */
+  zoom: 1; /* give it layout (this can be some other css that does likewise) */
+
+  width: 1200px;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact-info {
+  background-color: #001a59;
+  border-radius: 15px;
+  flex: 0 1 40%;
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+social-media {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  color: #ffffff;
+}
+.icon-circle {
+  flex: 0 1 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+  color: #000;
+}
+
+.fa {
+  flex: 0 0 20px;
+  font-size: 35px;
+  margin-right: 2rem;
+  color: #ffffff;
+}
+
+form {
+  padding: 40px;
+  width: 100%;
+}
+.col {
+  display: flex;
+  width: 100%;
+  flex: 0 0 100%;
+}
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 0 1 100%;
+  padding-right: 40px;
+}
+
+input [type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  border: none;
+  cursor: pointer;
+  padding: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffffff;
+  background: transparent;
+  border-bottom: 2px solid #bdd430;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.media-focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #001a59;
+}
+
+hover {
+  background: #bdd430;
+}
+label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.781);
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+input[type="text"] {
+  background: rgba(255, 254, 254, 0.6);
+  border: none;
+  border-bottom: #05f7;
+  padding: 1.4rempx;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border-bottom: 2px solid #bdd430;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.nth-child {
+  padding-right: 10px;
+}
+.radio-button {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+:radio-button(2) {
+  margin-right: 0px;
+}
+
+label {
+  font-size: 1rem;
+  padding: 2px;
+}
+.solo {
+  padding: 20px;
+}
+.right {
+  align-items: flex-end !important;
+  position: reght;
+}
+button {
+  margin: 0 0 10px 0;
+  padding: 4px 7px;
+  background: #bdd430;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 0px;
+  position: relative;
+  top: 10px;
+  display: flex;
+  width: 250px;
+  border-bottom: 1px double #664b00;
+  border-top: 1px double #2e6600;
+  border-left: 1px double #bbff00;
+  border-right: 1px double #9dff00;
+}
+button-1 {
+  margin: 0 0 10px 0;
+  padding: 4px 7px;
+  background: #bdd430;
+  border: 0px;
+  position: relative;
+  top: 10px;
+  left: 400px;
+  width: 100px;
+  border-bottom: 1px double #664b00;
+  border-top: 1px double #2e6600;
+  border-left: 1px double #bbff00;
+  border-right: 1px double #9dff00;
+}
+.contato {
+  background: url("../images/contato-easy1.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 70px 0px;
+  position: relative;
+  background-color: #bdd430;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contato-box-main {
+  padding: 70px 0px;
+}
+.contato-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+}
+.contato-box-main p {
+  padding-bottom: 20px;
+}
