@@ -168,7 +168,7 @@ class MyDocument extends Document {
 <script src="js3/js/jquery.themepunch.tools.min.js"></script>
 <script src="js3/js/jquery.themepunch.revolution.min.js"></script>
 <script src="js3/js/revolution.extension.layeranimation.min.js"></script>
-<script src="js3/js/revolution.extension.navigation.min.js"></script>
+
 <script src="js3/js/revolution.extension.slideanims.min.js"></script>
 
 <script src="js3/js/jquery.cubeportfolio.min.js"></script>

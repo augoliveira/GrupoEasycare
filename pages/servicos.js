@@ -164,177 +164,93 @@ export default function servicos() {
         </div>
       </div>
 
-      <div classNameName="Formulario">
-        <div classNameName="container">
-          <div classNameName="col">
-            <div classNameName="service-block-inner">
-              <h1 classNameName="noo-sh-title">Dê início a casa dos seus sonhos</h1>
+      <div className="Formulario">
+      <div className="container">
+          <div className="col-lg-8 col-md-8 col-sm-8">
+            <div className="service-block-inner">
+              <h1 className="noo-sh-title">Dê início a casa dos seus sonhos</h1>
+            </div>
+          </div>
+          
+          
+          
+          <div className="contato-container">       
+      <span className="big-circle"></span>
+      <img src="images/shape.png" className="square" alt="" />
+      <div className="form">
+        <div className="contact-info">
+          <h3 className="title">Fale conosco</h3>
+          <p className="text">
+          Fale conosco através de um dos nossos contato! ou se preferir preencha nosso formulário e nos envia seu contato.!
+          </p>
+
+          <div className="info">
+            <div className="information">
+              <img src="images/location.png" className="icon" alt="" />
+              <p>SIA Trecho 1 Lote 230 Sala 208, 209 e 211 - Guará, Brasília - DF, 71200-010</p>
+            </div>
+            <div className="information">
+              <img src="images/email.png" className="icon" alt="" />
+              <p>comercial@grupoeasycare.com.br</p>
+            </div>
+            <div className="information">
+              <img src="images/phone.png" className="icon" alt="" />
+              <p>(61) 3975-1779</p>
             </div>
           </div>
 
-          <div classNameName="contato-container">
-            <div classNameName="contact-info">
-              <h4>Fale conosco</h4>
-              <div classNameName="icon-text">
-                <i className="fa fa-phone" aria-hidden="true"></i>
-                <span>61 3975-1779</span>
-              </div>
-              <div classNameName="icon-text">
-                <i classNameName="fa fa-envelope" aria-hidden="true"></i>
-                <span>comercial@grupoeasycare.com.br</span>
-              </div>
-              <div classNameName="icon-text">
-                <i classNameName="fa fa-map-marker" aria-hidden="true"></i>
-                <span>Sia trecho 1 , Lt 230 /sala  208 /211 
-                Cep:71.200-012</span>
-              </div>
-
-              <div classNameName="add-to-btn">
-                <div classNameName="share-bar">
-                  <a classNameName="btn hvr-hover" href="#">
-                    <i classNameName="fab fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a classNameName="btn hvr-hover" href="#">
-                    <i classNameName="fab fa-pinterest-p" aria-hidden="true"></i>
-                  </a>
-                  <a classNameName="btn hvr-hover" href="#">
-                    <i classNameName="fab fa-whatsapp" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
+          <div className="social-media">
+            <p>Nossas Redes Sociais:</p>
+            <div className="social-icons">
+              <a href="https://www.facebook.com/grupoeasycare/">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://br.pinterest.com/easycareservicos">
+                <i className="fab fa-pinterest-p"></i>
+              </a>
+              <a href="https://www.instagram.com/grupoeasycare/">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="https://br.linkedin.com/in/grupo-easy-care-servi%C3%A7os-e-solu%C3%A7%C3%B5es-a3881b205">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
             </div>
-
-            <form>
-              <div className="form-group">
-                <label for="formGroupExampleInput">Nome</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="formGroupExampleInput"
-                  placeholder="Escreva seu nome"
-                ></input>
-              </div>
-
-              <div classNameName="row">
-                <div className="form-group col-lg-6 col-md-6 col-sm-6">
-                  <label for="inputEmail4">Email</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="inputEmail4"
-                    placeholder="Email"
-                  ></input>
-                </div>
-                <div className="form-group col-lg-6 col-md-6 col-sm-6">
-                  <label for="inputEmail4">Tel.</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="inputEmail4"
-                    placeholder="Tel."
-                  ></input>
-                </div>
-              </div>
-
-              <div classNameName="col-lg-12 col-md-12 col-sm-12">
-                <div classNameName="form-group-center">
-                  <div className="form-check form-check-inline">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      id="flexSwitchCheckDefault"
-                    ></input>
-                    <label
-                      className="form-check-label"
-                      for="flexSwitchCheckDefault"
-                    >
-                      Móveis Planejados
-                    </label>
-
-                    <div className="form-check form-check-inline">
-                      <input
-                        type="checkbox"
-                        className="form-check-input"
-                        id="flexSwitchCheckDefault"
-                      ></input>
-                      <label
-                        className="form-check-label"
-                        for="flexSwitchCheckDefault"
-                      >
-                        Pedra Esculpidas
-                      </label>
-
-                      <div className="form-check form-check-inline">
-                        <input
-                          className="form-check-input"
-                          type="checkbox"
-                          id="flexSwitchCheckDefault"
-                        ></input>
-                        <label
-                          className="form-check-label"
-                          for="flexSwitchCheckDefault"
-                        >
-                          Energia Fotovoltaica
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div classNameName="form-group-center">
-                  <div className="form-check form-check-inline">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      id="flexSwitchCheckDefault"
-                    ></input>
-                    <label
-                      className="form-check-label"
-                      for="flexSwitchCheckDefault"
-                    >
-                      Engenharia
-                    </label>
-
-                    <div className="form-check form-check-inline">
-                      <input
-                        type="checkbox"
-                        className="form-check-input"
-                        id="flexSwitchCheckDefault"
-                      ></input>
-                      <label
-                        className="form-check-label"
-                        for="flexSwitchCheckDefault"
-                      >
-                        Manutenção Predial
-                      </label>
-
-                      <div className="form-check form-check-inline">
-                        <input
-                          className="form-check-input"
-                          type="checkbox"
-                          id="flexSwitchCheckDefault"
-                        ></input>
-                        <label
-                          className="form-check-label"
-                          for="flexSwitchCheckDefault"
-                        >
-                          Automação Residencial
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div classNameName="col-lg-12 col-md-12 col-sm-12">
-                <div classNameName="form-group solo">
-                  <button>Enviar</button>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
+
+        <div className="contact-form">
+          <span className="circle one"></span>
+          <span className="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 className="title">Formulario de contato</h3>
+            <div className="input-container">
+              <input type="text" name="name" className="input" />
+              <label form="">Nome</label>
+              <span>Seu nome</span>
+            </div>
+            <div className="input-container">
+              <input type="email" name="email" className="input" />
+              <label form="">E-mail</label>
+              <span>Seu E-mail</span>
+            </div>
+            <div className="input-container">
+              <input type="tel" name="phone" className="input" />
+              <label form="">Telefone</label>
+              <span>Seu telefone</span>
+            </div>
+            <div className="input-container textarea">
+              <textarea name="message" className="input"></textarea>
+              <label form="">Mensagem</label>
+              <span>Mensagem</span>
+            </div>
+            <input type="submit" value="Enviar" className="btn" />
+          </form>
+        </div>
       </div>
+    </div>
+</div>
+</div>
     </>
   );
 }
