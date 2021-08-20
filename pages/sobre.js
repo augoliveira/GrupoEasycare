@@ -26,13 +26,10 @@ export default function sobre() {
                 Grupo <span> Easy Care</span>
               </h2>
               <p>
-                Estamos há 5 anos no mercado empenhados na prestação de serviços
-                de móveis planejados, pedras esculpidas e, atualmente,
-                trabalhamos com engenharia, automação residencial, energia
-                fotovoltaica e serviços financeiros. Nosso time de profissionais
-                tem o objetivo de garantir a satisfação do cliente com um
-                trabalho próximo e constante, como um verdadeiro parceiro na
-                construção e realização dos sonhos.
+              Estamos há 5 anos no mercado empenhados na prestação de serviços de móveis planejados, pedras esculpidas e, 
+              atualmente, trabalhamos com engenharia, automação residencial e energia fotovoltaica. 
+              Nosso time de profissionais tem o objetivo de garantir a satisfação do cliente com um trabalho próximo e constante, 
+              como um verdadeiro parceiro na construção e realização dos sonhos.
               </p>
               <p>
                 Nosso propósito é construir sonhos, tirar do papel e tornar real
@@ -87,7 +84,7 @@ export default function sobre() {
               <div className="col-lg-3 col-6 text-right">
               
               <h3>2021</h3>
-              <p>ENERGIA FOTOVOLTAICA E SERVIÇOS FINANCEIROS</p>
+              <p>Energia fotovoltaica e serviços financeiros</p>
             </div>
             
             

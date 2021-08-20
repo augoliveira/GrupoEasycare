@@ -1,26 +1,26 @@
 import React from "react";
 import Image from 'next/image'
-import slide3 from "../../public/images/Easy-Care-slide-3.jpg";
-import slide2 from "../../public/images/Easy-Care-slide-2.jpg";
 import slide1 from "../../public/images/Easy-Care-slide1.jpg";
+import slide2 from "../../public/images/Easy-Care-slide-2.jpg";
+import slide3 from "../../public/images/Easy-Care-slide-3.jpg";
+import slide4 from "../../public/images/Easy-Care-slide-4.jpg";
 export default function HeroSlider() {
   return (
    <div id="slides-shop" className="cover-slides">
       <ul className="slides-container">
-        <li className="text-center">
-          <img src={slide3} alt="" />
+        <li className="text-left">
+          <img src={slide1} alt="" />
           <div className="container">
             <div className="row">
               <div className="col-md-12">
+              <h3>
+              Seu ambiente
+                </h3>
                 <h1 className="m-b-20">
                   <strong>
-                     Energia fotovoltaica <br /> solução economica 
+                  todo <br/> planejado! 
                   </strong>
                 </h1>
-                <p className="m-b-40">
-                Projetos para todos os tipos de negócio e residências{" "}
-                  <br /> Garantia completa, rápida instalação, equipe especializada e opções de financiamento.
-                </p>
                 <p>
                   <a className="btn hvr-hover" href="/contato">
                     Contato
@@ -35,15 +35,16 @@ export default function HeroSlider() {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
+                 <h2 className="m-b-10">
+                 Construindo{" "}
+                  <br /> e cuidando.
+                </h2>
                 <h1 className="m-b-20">
                   <strong>
-                    O projeto de seus  <br /> Sonhos começa aqui!
+                  dos seus <br /> sonhos!
                   </strong>
                 </h1>
-                <p className="m-b-40">
-                  Pensando no seu conforto e segurança temos soluções completa{" "}
-                  <br /> projetamos e ezecutamos seu cozinha em marmore e silestones .
-                </p>
+               
                 <p>
                   <a className="btn hvr-hover" href="https://api.whatsapp.com/send?phone=5561998581779">
                     Quer mais informações?
@@ -53,19 +54,44 @@ export default function HeroSlider() {
             </div>
           </div>
         </li>
-        <li className="text-right">
-          <img src={slide1} alt="" />
+        <ul className="text-left">
+          <img src={slide3} alt="" />
           <div className="container">
             <div className="row">
               <div className="col-md-12">
+                <h2 className="m-b-40">
+                Todas as soluções{" "}
+                  <br /> em engenharia.
+                </h2>
                 <h1 className="m-b-20">
                   <strong>
-                    Ambiente planejados <br /> Para seu espaço
+                    Para você
+                  </strong>
+                </h1>
+                <p>
+                  <a className="btn hvr-hover" href="https://api.whatsapp.com/send?phone=556198581779">
+                    Fale com nosso time
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </ul>
+        <li className="text-center">
+          <img src={slide4} alt="" />
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+              <p className="m-b-40">
+                  Há
+                </p>
+                <h1 className="m-b-20">
+                  <strong>
+                  6 ANOS
                   </strong>
                 </h1>
                 <p className="m-b-40">
-                  O grupo Easy care tem a melhor solução planejada{" "}
-                  <br /> para Ambiente reduzido seu projeto aqui será bem cuidado.
+                construindo e cuidando de uma infinidade de sonhos!
                 </p>
                 <p>
                   <a className="btn hvr-hover" href="https://api.whatsapp.com/send?phone=5561998581779">

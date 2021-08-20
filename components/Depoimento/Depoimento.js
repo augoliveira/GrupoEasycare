@@ -5,9 +5,9 @@ export default function Depoimento() {
     <section id="testimonials" className="section-bg">
       <div className="container" data-aos="fade-up">
 
-        <header className="section-header">
-          <h3>Testemunho</h3>
-        </header>
+      <div className="col-md-12 text-center">
+        <h2 className="heading heading_space">Depoimento <span className="divider-center"></span></h2>
+        
 
         <div className="owl-carousel testimonials-carousel">
 
@@ -37,7 +37,7 @@ export default function Depoimento() {
           </div>
 
         </div>
-
+</div>
       </div>
     </section>
   );

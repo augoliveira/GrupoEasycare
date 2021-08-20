@@ -12,11 +12,12 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@material-ui/icons": "^4.11.2",
     "@types/google.analytics": "^0.0.42",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-less": "^1.0.1",
@@ -24,6 +25,7 @@
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "ga-gtag": "^1.1.0",
+    "i": "^0.3.6",
     "less": "^4.1.1",
     "next": "10.x",
     "next-images": "^1.8.1",

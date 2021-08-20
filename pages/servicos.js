@@ -18,11 +18,11 @@ export default function servicos() {
   return (
     <>
       <PageTitleBox />
-      <div className="contato-box-main">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <h2 className="contato-title">
+      <div classNameName="contato-box-main">
+        <div classNameName="container">
+          <div classNameName="row">
+            <div classNameName="col-lg-12">
+              <h2 classNameName="contato-title">
                 Grupo <span> Easy Care</span>
               </h2>
             </div>
@@ -30,20 +30,20 @@ export default function servicos() {
         </div>
       </div>
 
-      <div className="contato-box-main">
-        <div className="container">
-          <div className="card-group">
-            <div class="card text-center">
-              <div class="shadow-lg p-3 mb-5 bg-white rounded">
+      <div classNameName="contato-box-main">
+        <div classNameName="container">
+          <div classNameName="card-group">
+            <div className="card text-center">
+              <div className="shadow-lg p-3 mb-5 bg-white rounded">
                 <img
-                  className="card-img-top"
+                  classNameName="card-img-top"
                   src="images/big-img-02.jpg"
                   alt="Card image cap"
                 />
-                <div className="card-body">
+                <div classNameName="card-body">
                   <p>
                     <button
-                      class="btn btn-primary"
+                      className="btn btn-primary"
                       type="button"
                       data-toggle="collapse"
                       data-target="#multiCollapseExample2"
@@ -53,18 +53,18 @@ export default function servicos() {
                       Energia fotovoltaica
                     </button>
                   </p>
-                  <div class="row">
-                    <div class="col">
+                  <div className="row">
+                    <div className="col">
                       <div
-                        class="collapse multi-collapse"
+                        className="collapse multi-collapse"
                         id="multiCollapseExample2"
                       >
-                        <div class="card card-body">
-                          <blockquote class="blockquote text-center">
-                            <p class="mb-0">
+                        <div className="card card-body">
+                          <blockquote className="blockquote text-center">
+                            <p className="mb-0">
                             Automação, energia fotovoltaica e manutenção predial
                             </p>
-                            <footer class="blockquote-footer">
+                            <footer className="blockquote-footer">
                             Realizamos todo o trabalho para garantir a estabilidade, segurança de sua edificação, economia energética e usamos a tecnologia para facilitar processos, gerar praticidade e conforto. {" "}
                               <cite title="Source Title">
                                 atender exigências de segurança e garantir vida
@@ -80,17 +80,17 @@ export default function servicos() {
               </div>
             </div>
 
-            <div class="card text-center">
-              <div class="shadow-lg p-3 mb-5 bg-white rounded">
+            <div className="card text-center">
+              <div className="shadow-lg p-3 mb-5 bg-white rounded">
                 <img
-                  className="card-img-top"
+                  classNameName="card-img-top"
                   src="images/Móveis-planejados.jpg"
                   alt="Card image cap"
                 />
-                <div className="card-body">
+                <div classNameName="card-body">
                   <p>
                     <button
-                      class="btn btn-primary"
+                      className="btn btn-primary"
                       type="button"
                       data-toggle="collapse"
                       data-target="#collapseExample"
@@ -100,11 +100,11 @@ export default function servicos() {
                       Móveis planejados
                     </button>
                   </p>
-                  <div class="collapse" id="collapseExample">
-                    <div class="card card-body">
-                      <blockquote class="blockquote text-center">
-                        <p class="mb-0">móveis, pedras e reformas</p>
-                        <footer class="blockquote-footer">
+                  <div className="collapse" id="collapseExample">
+                    <div className="card card-body">
+                      <blockquote className="blockquote text-center">
+                        <p className="mb-0">móveis, pedras e reformas</p>
+                        <footer className="blockquote-footer">
                           Somos especialistas no trabalho com MDF,{" "}
                           <cite title="Source Title"></cite>um material versátil
                           e maleável para a confecção de ambientes planejados e
@@ -116,17 +116,17 @@ export default function servicos() {
                 </div>
               </div>
             </div>
-            <div class="card text-center">
-              <div class="shadow-lg p-3 mb-5 bg-white rounded">
+            <div className="card text-center">
+              <div className="shadow-lg p-3 mb-5 bg-white rounded">
                 <img
-                  className="card-img-top"
+                  classNameName="card-img-top"
                   src="images/serviços-financeiros.jpg"
                   alt="Card image cap"
                 />
-                <div className="card-body">
+                <div classNameName="card-body">
                   <p>
                     <a
-                      class="btn btn-primary"
+                      className="btn btn-primary"
                       data-toggle="collapse"
                       href="#multiCollapseExample1"
                       role="button"
@@ -136,16 +136,16 @@ export default function servicos() {
                       Soluções financeiras
                     </a>
                   </p>
-                  <div class="row">
-                    <div class="col">
+                  <div className="row">
+                    <div className="col">
                       <div
-                        class="collapse multi-collapse"
+                        className="collapse multi-collapse"
                         id="multiCollapseExample1"
                       >
-                        <div class="card card-body">
-                          <blockquote class="blockquote text-center">
-                            <p class="mb-0">Soluções financeiras</p>
-                            <footer class="blockquote-footer">
+                        <div className="card card-body">
+                          <blockquote className="blockquote text-center">
+                            <p className="mb-0">Soluções financeiras</p>
+                            <footer className="blockquote-footer">
                               Os produtos financeiros têm grande relevância na
                               vida do investidor comum como também muita{" "}
                               <cite title="Source Title"></cite> influência no
@@ -164,114 +164,114 @@ export default function servicos() {
         </div>
       </div>
 
-      <div className="Formulario">
-        <div className="container">
-          <div className="col">
-            <div className="service-block-inner">
-              <h1 className="noo-sh-title">Dê início a casa dos seus sonhos</h1>
+      <div classNameName="Formulario">
+        <div classNameName="container">
+          <div classNameName="col">
+            <div classNameName="service-block-inner">
+              <h1 classNameName="noo-sh-title">Dê início a casa dos seus sonhos</h1>
             </div>
           </div>
 
-          <div className="contato-container">
-            <div className="contact-info">
+          <div classNameName="contato-container">
+            <div classNameName="contact-info">
               <h4>Fale conosco</h4>
-              <div className="icon-text">
-                <i class="fa fa-phone" aria-hidden="true"></i>
+              <div classNameName="icon-text">
+                <i className="fa fa-phone" aria-hidden="true"></i>
                 <span>61 3975-1779</span>
               </div>
-              <div className="icon-text">
-                <i className="fa fa-envelope" aria-hidden="true"></i>
+              <div classNameName="icon-text">
+                <i classNameName="fa fa-envelope" aria-hidden="true"></i>
                 <span>comercial@grupoeasycare.com.br</span>
               </div>
-              <div className="icon-text">
-                <i className="fa fa-map-marker" aria-hidden="true"></i>
+              <div classNameName="icon-text">
+                <i classNameName="fa fa-map-marker" aria-hidden="true"></i>
                 <span>Sia trecho 1 , Lt 230 /sala  208 /211 
                 Cep:71.200-012</span>
               </div>
 
-              <div className="add-to-btn">
-                <div className="share-bar">
-                  <a className="btn hvr-hover" href="#">
-                    <i className="fab fa-facebook" aria-hidden="true"></i>
+              <div classNameName="add-to-btn">
+                <div classNameName="share-bar">
+                  <a classNameName="btn hvr-hover" href="#">
+                    <i classNameName="fab fa-facebook" aria-hidden="true"></i>
                   </a>
-                  <a className="btn hvr-hover" href="#">
-                    <i className="fab fa-pinterest-p" aria-hidden="true"></i>
+                  <a classNameName="btn hvr-hover" href="#">
+                    <i classNameName="fab fa-pinterest-p" aria-hidden="true"></i>
                   </a>
-                  <a className="btn hvr-hover" href="#">
-                    <i className="fab fa-whatsapp" aria-hidden="true"></i>
+                  <a classNameName="btn hvr-hover" href="#">
+                    <i classNameName="fab fa-whatsapp" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
             </div>
 
             <form>
-              <div class="form-group">
+              <div className="form-group">
                 <label for="formGroupExampleInput">Nome</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="formGroupExampleInput"
                   placeholder="Escreva seu nome"
                 ></input>
               </div>
 
-              <div className="row">
-                <div class="form-group col-lg-6 col-md-6 col-sm-6">
+              <div classNameName="row">
+                <div className="form-group col-lg-6 col-md-6 col-sm-6">
                   <label for="inputEmail4">Email</label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="inputEmail4"
                     placeholder="Email"
                   ></input>
                 </div>
-                <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                <div className="form-group col-lg-6 col-md-6 col-sm-6">
                   <label for="inputEmail4">Tel.</label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="inputEmail4"
                     placeholder="Tel."
                   ></input>
                 </div>
               </div>
 
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="form-group-center">
-                  <div class="form-check form-check-inline">
+              <div classNameName="col-lg-12 col-md-12 col-sm-12">
+                <div classNameName="form-group-center">
+                  <div className="form-check form-check-inline">
                     <input
-                      class="form-check-input"
+                      className="form-check-input"
                       type="checkbox"
                       id="flexSwitchCheckDefault"
                     ></input>
                     <label
-                      class="form-check-label"
+                      className="form-check-label"
                       for="flexSwitchCheckDefault"
                     >
                       Móveis Planejados
                     </label>
 
-                    <div class="form-check form-check-inline">
+                    <div className="form-check form-check-inline">
                       <input
                         type="checkbox"
-                        class="form-check-input"
+                        className="form-check-input"
                         id="flexSwitchCheckDefault"
                       ></input>
                       <label
-                        class="form-check-label"
+                        className="form-check-label"
                         for="flexSwitchCheckDefault"
                       >
                         Pedra Esculpidas
                       </label>
 
-                      <div class="form-check form-check-inline">
+                      <div className="form-check form-check-inline">
                         <input
-                          class="form-check-input"
+                          className="form-check-input"
                           type="checkbox"
                           id="flexSwitchCheckDefault"
                         ></input>
                         <label
-                          class="form-check-label"
+                          className="form-check-label"
                           for="flexSwitchCheckDefault"
                         >
                           Energia Fotovoltaica
@@ -281,41 +281,41 @@ export default function servicos() {
                   </div>
                 </div>
 
-                <div className="form-group-center">
-                  <div class="form-check form-check-inline">
+                <div classNameName="form-group-center">
+                  <div className="form-check form-check-inline">
                     <input
-                      class="form-check-input"
+                      className="form-check-input"
                       type="checkbox"
                       id="flexSwitchCheckDefault"
                     ></input>
                     <label
-                      class="form-check-label"
+                      className="form-check-label"
                       for="flexSwitchCheckDefault"
                     >
                       Engenharia
                     </label>
 
-                    <div class="form-check form-check-inline">
+                    <div className="form-check form-check-inline">
                       <input
                         type="checkbox"
-                        class="form-check-input"
+                        className="form-check-input"
                         id="flexSwitchCheckDefault"
                       ></input>
                       <label
-                        class="form-check-label"
+                        className="form-check-label"
                         for="flexSwitchCheckDefault"
                       >
                         Manutenção Predial
                       </label>
 
-                      <div class="form-check form-check-inline">
+                      <div className="form-check form-check-inline">
                         <input
-                          class="form-check-input"
+                          className="form-check-input"
                           type="checkbox"
                           id="flexSwitchCheckDefault"
                         ></input>
                         <label
-                          class="form-check-label"
+                          className="form-check-label"
                           for="flexSwitchCheckDefault"
                         >
                           Automação Residencial
@@ -326,8 +326,8 @@ export default function servicos() {
                 </div>
               </div>
 
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="form-group solo">
+              <div classNameName="col-lg-12 col-md-12 col-sm-12">
+                <div classNameName="form-group solo">
                   <button>Enviar</button>
                 </div>
               </div>
@@ -339,4 +339,4 @@ export default function servicos() {
   );
 }
 
-<div className="row special-list">{servicos}</div>;
+<div classNameName="row special-list">{servicos}</div>;

@@ -93,13 +93,33 @@ class MyDocument extends Document {
 	        <link rel="stylesheet" href="/css/owl.carousel.min.css"/>
           <link href="style.css" rel="stylesheet"/>
           
+          
+          <link rel="stylesheet" type="text/css" href="css3/css/building-icons.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/animate.min.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/owl.carousel.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/owl.transitions.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/jquery.fancybox.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/settings.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/zerogrid.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/bootsnav.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/style.css"/>
+          <link rel="stylesheet" type="text/css" href="css3/css/loader.css"/>
+
+          
+                    
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
       
         </Head>
         <body>
+        <div class="loader">
+  <div class="satellite"></div>
+  <p class="title-loader">Loading ...</p>
+</div>
           <Main />
           <NextScript />
-          <script src="/js/jquery-3.2.1.min.js"></script>
+          
           <script src="/js/popper.min.js"></script>
           <script src="/js/bootstrap.min.js"></script>
           <script src="/js/jquery.superslides.min.js"></script>
@@ -121,34 +141,40 @@ class MyDocument extends Document {
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-        <script src="assets/vendor/counterup/counterup.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/venobox/venobox.min.js"></script>
-        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/js/main.js"></script>
+       
+       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+       <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+       <script src="assets/vendor/php-email-form/validate.js"></script>
+       <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+       <script src="assets/vendor/counterup/counterup.min.js"></script>
+       <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+       <script src="assets/vendor/venobox/venobox.min.js"></script>
+       <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+       <script src="assets/vendor/aos/aos.js"></script>
+     
+       
+       <script src="assets/js/main.js"></script>
+       <script src="assets/js/validator.min.js"></script>							 
 
-        <script src="vendor/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <script src="vendor/wow/wow.min.js" type="text/javascript"></script>
-  <script src="vendor/lightbox2/src/js/lightbox.js" type="text/javascript"></script>
-  <script src="vendor/bootstrap4/popper.min.js" type="text/javascript"></script>
-  <script src="vendor/bootstrap4/bootstrap.min.js" type="text/javascript"></script>
-  <script src="vendor/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
-  <script src="vendor/revolution/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-  <script src="vendor/revolution/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="js3/js/jquery-2.2.3.js"></script>
+          
+  <script src="js3/js/bootsnav.js"></script>
+<script src="js3/js/jquery.appear.js"></script>
+<script src="js3/js/jquery-countTo.js"></script>
+<script src="js3/js/jquery.parallax-1.1.3.js"></script>
+<script src="js3/js/owl.carousel.min.js"></script>
+<script src="js3/js/jquery.mixitup.min.js"></script>
+<script src="js3/js/jquery.fancybox.js"></script>
+<script src="js3/js/jquery.themepunch.tools.min.js"></script>
+<script src="js3/js/jquery.themepunch.revolution.min.js"></script>
+<script src="js3/js/revolution.extension.layeranimation.min.js"></script>
+<script src="js3/js/revolution.extension.navigation.min.js"></script>
+<script src="js3/js/revolution.extension.slideanims.min.js"></script>
+
+<script src="js3/js/jquery.cubeportfolio.min.js"></script>
+
+<script src="js3/js/functions.js"></script>
   
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.migration.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.actions.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.carousel.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.kenburn.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.layeranimation.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.navigation.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.parallax.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.slideanims.min.js"></script>
-  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.video.min.js"></script>
-  <script type="text/javascript"></script>
   
         </body>
       </Html>

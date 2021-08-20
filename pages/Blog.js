@@ -31,8 +31,6 @@ export default function Blog() {
 
       </div>
     </section>
-    
-      
       <section id="blog" className="blog">
       <div className="container">
 
@@ -140,7 +138,7 @@ export default function Blog() {
             <article className="entry">
 
               <div className="entry-img">
-                <img src="../images/blog-4.jpg" alt="" className="img-fluid"/>
+                <img src="../images/blog-4.webp" alt="" className="img-fluid"/>
               </div>
 
               <h2 className="entry-title">

@@ -3,10 +3,10 @@ import React from "react";
 export default function Depoimento() {
   return (
     <main id="main">
-      <div class="container">
-        <div class="page-header">
-          <h1 class="entry-title">Políticas de Privacidade e Termos de Uso</h1></div>
-        <div class="page-content">
+      <div className="container">
+        <div className="page-header">
+          <h1 className="entry-title">Políticas de Privacidade e Termos de Uso</h1></div>
+        <div className="page-content">
           <p>Nós, do Grupo Easy Care, resguardamos sua privacidade. O intuito deste documento é esclarecer quais informações são coletadas dos usuários de nosso site www.grupoeasycare.com.br – e respectivos serviços – e de que forma esses dados são utilizados. Ao fornecer ao Grupo Easy Care suas informações pessoais, o usuário declara conhecer e concordar com os Termos e Condições previstos nesta Política de Privacidade. Se, por qualquer motivo você não concorda com o conteúdo desta política, não recomendamos que utilize nossos serviços.</p>
           <h3>Sobre a coleta de dados</h3>
           <p>Em nossos sites, as informações são coletadas das seguintes formas:

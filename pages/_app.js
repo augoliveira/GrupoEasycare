@@ -1,4 +1,5 @@
-import FacebookPixel from '../components/FacebookPixel'
+
+import { IconName } from "react-icons/io";
 import "../styles/globals.css";
 import Layout from "../components/Layout/Layout";
 import { Provider } from "react-redux";

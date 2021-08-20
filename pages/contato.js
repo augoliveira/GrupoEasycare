@@ -41,11 +41,11 @@ export default function Contato() {
           </div>
         </div>
       </div>
-
+      
       <div className="contato">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="service-block-inner">
                 <h1>
                   Dê início a casa{" "}
@@ -55,174 +55,84 @@ export default function Contato() {
                 </h1>
               </div>
             </div>
-            <div className="contato-container">
-            <div className="contact-info">
-              <legend><b>Fórmulário de Clientes</b></legend>
-              <h6>Precisa falar com a área técnica?</h6>
-              <div className="icon-text">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <a href="tel:613975-1779"> 61 3975-1779</a>
-              </div>
-              <div className="icon-text">
-                <i className="fa fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:contactinfo@gmail.com">comercial@grupoeasycare.com.br</a>
-              </div>
-              <div className="icon-text">
-                <i className="fa fa-map-marker" aria-hidden="true"></i>
-                <span>Sia trecho 1 , Lt 230 /sala  208 /211 
-                Cep:71.200-012</span>
-              </div>
+            <div class="contato-container">       
+      <span class="big-circle"></span>
+      <img src="images/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Fale conosco</h3>
+          <p class="text">
+          Fale conosco através de um dos nossos contato! ou se preferir preencha nosso formulário e nos envia seu contato.!
+          </p>
 
-              <div className="add-to-btn">
-                <div className="share-bar">
-                  <a className="btn hvr-hover" href="https://www.facebook.com/grupoeasycare/">
-                    <i className="fab fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a className="btn hvr-hover" href="https://br.pinterest.com/easycareservicos">
-                    <i className="fab fa-pinterest-p" aria-hidden="true"></i>
-                  </a>
-                  <a className="btn hvr-hover" href="https://api.whatsapp.com/send?phone=5561998581779">
-                    <i className="fab fa-whatsapp" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
+          <div class="info">
+            <div class="information">
+              <img src="images/location.png" class="icon" alt="" />
+              <p>SIA Trecho 1 Lote 230 Sala 208, 209 e 211 - Guará, Brasília - DF, 71200-010</p>
             </div>
-
-            <form id="form">
-              <div class="form-group">
-                <label for="formGroupExampleInput">Nome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput"
-                  placeholder="Escreva seu nome"
-                ></input>
-              </div>
-
-              <div className="row">
-                <div class="form-group col-lg-6 col-md-6 col-sm-6">
-                  <label for="inputEmail4">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="Email"
-                  ></input>
-                </div>
-                <div class="form-group col-lg-6 col-md-6 col-sm-6">
-                  <label for="inputTel4">Tel.</label>
-                  <input
-                    type="Tel"
-                    class="form-control"
-                    id="inputTel4"
-                    placeholder="Tel."
-                  ></input>
-                </div>
-              </div>
-
-              
-              
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="form-group-center">
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="flexSwitchCheckDefault"
-                    ></input>
-                    <label
-                      class="form-check-label"
-                      for="flexSwitchCheckDefault"
-                    >
-                      Móveis Planejados
-                    </label>
-
-                    <div class="form-check form-check-inline">
-                      <input
-                        type="checkbox"
-                        class="form-check-input"
-                        id="flexSwitchCheckDefault"
-                      ></input>
-                      <label
-                        class="form-check-label"
-                        for="flexSwitchCheckDefault"
-                      >
-                        Pedras esculpidas
-                      </label>
-
-                      <div class="form-check form-check-inline">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          id="flexSwitchCheckDefault"
-                        ></input>
-                        <label
-                          class="form-check-label"
-                          for="flexSwitchCheckDefault"
-                        >
-                          Energia Fotovoltaica
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="form-group-center">
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="flexSwitchCheckDefault"
-                    ></input>
-                    <label
-                      class="form-check-label"
-                      for="flexSwitchCheckDefault"
-                    >
-                     Engenharia
-                    </label>
-
-                    <div class="form-check form-check-inline">
-                      <input
-                        type="checkbox"
-                        class="form-check-input"
-                        id="flexSwitchCheckDefault"
-                      ></input>
-                      <label
-                        class="form-check-label"
-                        for="flexSwitchCheckDefault"
-                      >
-                        Manutenção Predial
-                      </label>
-
-                      <div class="form-check form-check-inline">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          id="flexSwitchCheckDefault"
-                        ></input>
-                        <label
-                          class="form-check-label"
-                          for="flexSwitchCheckDefault"
-                        >
-                          Automação Residencial
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="form-group solo">
-                <button type="submit" class="btn btn-primary">ENVIAR</button>
-                </div>
-              </div>
-              
-            </form>
+            <div class="information">
+              <img src="images/email.png" class="icon" alt="" />
+              <p>comercial@grupoeasycare.com.br</p>
+            </div>
+            <div class="information">
+              <img src="images/phone.png" class="icon" alt="" />
+              <p>(61) 3975-1779</p>
+            </div>
           </div>
+
+          <div class="social-media">
+            <p>Nossas Redes Sociais:</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/grupoeasycare/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://br.pinterest.com/easycareservicos">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+              <a href="https://www.instagram.com/grupoeasycare/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://br.linkedin.com/in/grupo-easy-care-servi%C3%A7os-e-solu%C3%A7%C3%B5es-a3881b205">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
           </div>
         </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Formulario de contato</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Nome</label>
+              <span>Seu nome</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">E-mail</label>
+              <span>Seu E-mail</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Telefone</label>
+              <span>Seu telefone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Mensagem</label>
+              <span>Mensagem</span>
+            </div>
+            <input type="submit" value="Enviar" class="btn" />
+          </form>
+        </div>
       </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </>
   );
 }
