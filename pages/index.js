@@ -1,5 +1,4 @@
 
-import * as fbq from '../lib/fpixel'
 import HeroSlider from "../components/HeroSlider/HeroSlider";
 import Galeria from "../components/Galeria/Galeria";
 import Orçamento from "../components/Orçamento/Orçamento";
@@ -17,8 +16,8 @@ export default function Home() {
       <Whatsapp />
       <Depoimento />
       <Formulario />
-      
+
     </div>
-    
+
   );
 }

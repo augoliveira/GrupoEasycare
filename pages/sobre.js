@@ -1,23 +1,25 @@
 import React from "react";
-import dynamic from "next/dynamic";
-import Skeleton from "react-loading-skeleton";
+import Sobre from "../components/Sobre/Sobre";
 
-import PageTitleBox from "../components/PageTitleBox/PageTitleBox";
-import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
-//import OurTeam from "";
-
-const OurTeam = dynamic(
-  () => import("../components/OurTeam/OurTeam.container"),
-  {
-    loading: () => <OurTeamLoader />,
-    ssr: false,
-  }
-);
 
 export default function sobre() {
   return (
     <>
-      <PageTitleBox />
+      <section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center page-content">
+        <h1>Sobre-nós</h1>
+        <p>construindo e cuidando de uma infinidade de sonhos!</p>
+        <div class="page_nav">
+      <span>Você está aqui:</span> 
+      <a href="/">Home</a> <span>
+          <i class="fa fa-angle-double-right"></i>Sobre-nós </span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
       <div className="about-box-main">
         <div className="container">
           <div className="row">
@@ -115,7 +117,7 @@ export default function sobre() {
             </div>
             
           </div>
-          <OurTeam />
+          <Sobre />
         </div>
       </div>
     </>

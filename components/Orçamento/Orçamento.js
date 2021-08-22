@@ -7,7 +7,7 @@ export default function Orçamento() {
         <div className="service__item service__intro" style={{backgroundImage: `url('/images/service-01.jpg');`}}>
           <div className="service__item-inner">
             <h3>
-              <span>Ambiente planejados</span>
+              <span>Ambientes planejados</span>
               <br/> Para espaço corporativo
             </h3>
             <p>
@@ -19,7 +19,7 @@ export default function Orçamento() {
           </div>
 
         </div>
-        
+
         <div className="service__item" style={{backgroundImage: `url('/images/service-02.jpg');`}}>
           <div className="service__item-inner">
             <img alt="Icon 1" src="/images/icon-service-01.png"/>
@@ -27,7 +27,7 @@ export default function Orçamento() {
             <p>Projetos de arquitetura, interiores, produção de móveis e pedras esculpidas. </p>
           </div>
         </div>
-        
+
         <div className="service__item" style={{backgroundImage: `url('/images/service-03.jpg');`}}>
           <div className="service__item-inner">
             <img alt="Icon 2" src="images/icon-service-02.png"/>
@@ -35,7 +35,7 @@ export default function Orçamento() {
             <p>Criação do projeto, estudo da viabilidade, acompanhamento e execução de obra. </p>
           </div>
         </div>
-        
+
         <div className="service__item" style={{backgroundImage: `url('images/service-04.jpg');`}}>
           <div className="service__item-inner">
             <img alt="Icon 3" src="images/icon-service-03.png"/>
@@ -43,7 +43,7 @@ export default function Orçamento() {
             <p>Soluções sustentáveis e econômicas para sua conta de luz e para o planeta.</p>
           </div>
         </div>
-        
+
       </div>
     </section>
   );

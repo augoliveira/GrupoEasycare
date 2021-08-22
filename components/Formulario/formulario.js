@@ -10,10 +10,10 @@ export default function formulario() {
               <h1 className="noo-sh-title">Dê início a casa dos seus sonhos</h1>
             </div>
           </div>
-          
-          
-          
-          <div className="contato-container">       
+
+
+
+          <div className="contato-container">
       <span className="big-circle"></span>
       <img src="images/shape.png" className="square" alt="" />
       <div className="form">

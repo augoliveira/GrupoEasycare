@@ -1,28 +1,31 @@
 import React from "react";
-import dynamic from "next/dynamic";
-import Skeleton from "react-loading-skeleton";
 
-import PageTitleBox from "../components/PageTitleBox projeto/PageTitleBox";
-import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
-//import OurTeam from "";
 import Formulario from "../components/Formulario/formulario";
-import ShopCategories from "../components/ShopCategories/ShopCategories.container";
-const OurTeam = dynamic(
-  () => import("../components/OurTeam/OurTeam.container"),
-  {
-    loading: () => <OurTeamLoader />,
-    ssr: false,
-  }
-);
+
 
 export default function projetos() {
   return (
     <>
+    <section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center page-content">
+        <h1>Projetos</h1>
+        <p>construindo e cuidando de uma infinidade de sonhos!</p>
+        <div class="page_nav">
+      <span>Você está aqui:</span> 
+      <a href="/">Home</a> <span>
+          <i class="fa fa-angle-double-right"></i>Projetos </span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
       <section id="portfolio" className="portfolio">
       <div className="container-fluid">
 
         <div className="section-title">
-          <h2>Portfolio</h2>
+          <h2>Projetos</h2>
           <h3>Nossos <span>Projetos</span></h3>
           <p>Projetos para ampliar seu espaço</p>
         </div>

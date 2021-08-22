@@ -1,59 +1,46 @@
 import React from "react";
-
 export default function Sobre() {
   return (
-    <section className="our-process">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-4 col-md-6 col-12">
-            <h2 className="title">
-              our
-              <span>
-                process
-              </span>
-            </h2>
-            <p className="title-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-3 col-md-6 col-12">
-            <div className="our-process__item our-process__item--l-b">
-              <h3>
-                <i className="zmdi zmdi-accounts-alt"></i>
-                meet
-              </h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accuntium.</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-12">
-            <div className="our-process__item our-process__item--l-t">
-              <h3>
-                <i className="zmdi zmdi-library"></i>
-                discussion
-              </h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accuntium.</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-12">
-            <div className="our-process__item our-process__item--l-b">
-              <h3>
-                <i className="zmdi zmdi-puzzle-piece"></i>
-                ideal
-              </h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accuntium.</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-12">
-            <div className="our-process__item">
-              <h3>
-                <i className="zmdi zmdi-city-alt"></i>
-                construct
-              </h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accuntium.</p>
-            </div>
-          </div>
-        </div>
+    <section id="director" class="padding-top padding-bottom-half">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       <h2 class="heading heading_space">Parceiros<span class="divider-left"></span></h2>
       </div>
-    </section>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 content_wrap heading_space">
+        <div class="image">
+          <img src="images/img-1.jpg" alt="Construction" class="img-responsive border-radius"/>
+          <span class="post">Lilian Figueiredo</span>
+        </div>
+        <h3>Gerente Geral.</h3>
+        <p>Responsável por liderar o time Easy Care, promover a integração, a qualidade e o cuidado com os clientes na construção e realização dos seus sonhos.</p> 
+        <ul class="social_icon heading_top">
+          <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#." class="instagram"><i class="fa fa-instagram"></i></a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-6 content_wrap heading_space">
+        <div class="image">
+          <img src="images/img-2.jpg" alt="Construction" class="img-responsive border-radius"/>
+          <span class="post">Fábio Silva:</span>
+        </div>
+        <h3>Diretor de comunicação</h3>
+        <p>Responsável pelos relacionamentos, gestão de negócios, parcerias, comunicação do grupo e negociação.</p> 
+        <ul class="social_icon heading_top">
+        <li><a href="#." class="linkedin"><i class="fa fa-linkedin"></i></a></li>  
+      </ul>
+      </div>
+      
+      
+      
+      
+    </div>
+    
+    
+  </div>
+</section>
   );
 }

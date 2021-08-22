@@ -1,21 +1,18 @@
-
-import { IconName } from "react-icons/io";
-import "../styles/globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/Layout/Layout";
-import { Provider } from "react-redux";
-import { store } from "../store";
-import * as gtag from '../lib/gtag'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "swiper/swiper-bundle.min.css";
 
 function MyApp({ Component, pageProps }) {
-  
+
   return (
-    
-    <Provider store={store}>
+
+
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </Provider>
-    
+
+
   );
 }
 

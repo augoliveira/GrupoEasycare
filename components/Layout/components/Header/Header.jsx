@@ -1,14 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-import TopBar from "../TopBar/TopBar";
-import { useSelector } from "react-redux";
 
 export default function Header() {
-  const cartItemsCount = useSelector((state) => state.cart.length);
   return (
     <>
-      
+
       <header className="main-header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
           <div className="container">
@@ -25,7 +22,7 @@ export default function Header() {
                 <i className="fa fa-bars"></i>
               </button>
               <a className="navbar-brand" href="/">
-                <img src="images/logo.png" className="logo" alt="logo" className="img-fluid" title="Logo grupo easy care - móveis planejados" />
+                <img src="images/logo.png" className="logo" alt="logo" class="img-fluid" title="Logo grupo easy care - móveis planejados" />
               </a>
             </div>
 
@@ -50,7 +47,7 @@ export default function Header() {
                     <a className="nav-link">Projetos</a>
                   </Link>
                 </li>
-               
+
                 <li className="nav-item">
                   <Link href="/servicos">
                     <a className="nav-link">Serviços</a>
@@ -69,7 +66,7 @@ export default function Header() {
               </ul>
             </div>
 
-            
+
           </div>
         </nav>
       </header>

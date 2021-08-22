@@ -62,7 +62,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-12">
               Copyright © 2020 Grupo Easy care
-              <span> Balaio da criação </span> . Todos direitos deservados
+              <span> Balaio da criação </span> . Todos direitos reservados
             </div>
           </div>
         </div>

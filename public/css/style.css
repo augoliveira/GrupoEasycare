@@ -1,4 +1,21 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i");
+
+/*
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Quattrocento Sans', sans-serif;
+
+*/
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
 
 @import url(all.css);
 @import url(superslides.css);
@@ -17,9 +34,9 @@
     SKELETON
 -------------------------------------------------------------------*/
 body {
-  color: #838383;
+  color: #666666;
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Monument Extended, sans-serif;
   line-height: 1.5em;
 }
 #preloader {
@@ -318,7 +335,7 @@ p {
   color: #ffffff;
   font-size: 20px;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: "Monument Extended", sans-serif;
 }
 .offer-box li {
   font-weight: 600;
@@ -818,7 +835,7 @@ ul.cart-list > li.total > .btn:hover {
   height: 100%;
 }
 .overlay-background {
-  
+
   position: absolute;
   height: 100%;
   width: 100%;
@@ -827,10 +844,10 @@ ul.cart-list > li.total > .btn:hover {
   opacity: 0.5;
 }
 .cover-slides h1 {
-  font-family: "Monument Extended", sans-serif;
-  font-weight: 900;
-  font-size: 100px;
-  color: #c6e21c;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  color: rgb(255, 255, 255);
 }
 .cover-slides p {
   font-size: 18px;
@@ -846,7 +863,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 .cover-slides p a {
   font-size: 24px;
-  color: #c6e21c;
+  color: #ffffff;
   border: none;
   text-transform: uppercase;
   padding: 10px 20px;
@@ -985,7 +1002,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 .why-text h5 {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Monument Extended", sans-serif;
   padding: 0px;
   font-weight: 600;
 }
@@ -2039,7 +2056,7 @@ ul.cart-list > li.total > .btn:hover {
   text-transform: uppercase;
   font-style: italic;
   font-weight: 700;
-  color: #fff;
+  color: #bdd430;
 }
 .about-box-main p {
   padding-bottom: 20px;
@@ -2048,14 +2065,13 @@ ul.cart-list > li.total > .btn:hover {
   padding: 15px 20px;
   position: relative;
   margin-bottom: 30px;
-  
 }
 .service-block-inner::before {
   content: "";
   width: 5px;
   height: 100%;
   border-radius: 0px;
-  background: #cfcfcf;
+  background: #010101;
   position: absolute;
   top: 0;
   left: 0;
@@ -3100,7 +3116,7 @@ p.sub-title {
   font-size: 1.5rem;
 }
 .contato-container {
-  
+
 position: relative;
 width: 100%;
 min-height: 100vh;
@@ -3174,7 +3190,7 @@ position: relative;
 .title {
 color: #fff;
 font-weight: 500;
-font-size: 1.5rem;
+font-size: 30px;
 line-height: 1;
 margin-bottom: 0.7rem;
 }
@@ -3227,7 +3243,7 @@ transform: translateY(0);
 
 .btn {
 padding: 0.6rem 1.3rem;
-background-color: #0038b9;
+background-color: #fff;
 border: 2px solid #fafafa;
 font-size: 0.95rem;
 color: #001a59;
@@ -3349,7 +3365,7 @@ transform: scale(1.05);
 .contact-info:before {
 content: "";
 position: absolute;
-width: 100px;
+width: 110px;
 height: 100px;
 border: 22px solid #001a59;
 border-radius: 50%;
@@ -3406,8 +3422,127 @@ opacity: 0.2;
   justify-content: center;
   align-items: center;
 }
+.contato-box-main {
+  padding: 70px 0px;
+}
+.contato-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+}
+.contato-box-main p {
+  padding-bottom: 20px;
+}
+.contact .info-box {
+  color: #313030;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px;
+}
 
+.contact .info-box i {
+  font-size: 32px;
+  color: #ff5821;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #ffded4;
+  float: center;
+}
 
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #656262;
+  font-weight: 700;
+  margin: 10px 0 10px 68px;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0 0 0 68px;
+}
+
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+  background-color: #ff5821;
+}
+
+.contact .php-email-form input {
+  padding: 20px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #ff5821;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
 @media (max-width: 850px) {
   .form {
     grid-template-columns: 1fr;
@@ -3446,7 +3581,7 @@ opacity: 0.2;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .container {
     padding: 1.5rem;
   }
@@ -3463,7 +3598,6 @@ opacity: 0.2;
   form,
   .contact-info {
     padding: 1.7rem 1.6rem;
-    padding: auto;
   }
 
   .text,
@@ -3495,6 +3629,28 @@ opacity: 0.2;
   }
 }
 
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #ff7e54;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #313030;
@@ -3988,7 +4144,6 @@ a.au-btn--white {
 .parallax--footer {
   background-image: url('../images/bg-footer.jpg');
   padding: 40px 0;
-  backdrop-filter: #1f1f1f54;
 }
 
 
@@ -8489,8 +8644,8 @@ body.box {
 }
 
 .contact-info {
-  
-  
+
+
   padding-top: 30px;
 }
 
