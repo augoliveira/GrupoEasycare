@@ -1,23 +1,25 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import Skeleton from "react-loading-skeleton";
 
-import PageTitleBox from "../components/PageTitleBox servicos/PageTitleBox";
-import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
-//import OurTeam from "";
-
-const OurTeam = dynamic(
-  () => import("../components/OurTeam/OurTeam.container"),
-  {
-    loading: () => <OurTeamLoader />,
-    ssr: false,
-  }
-);
 
 export default function servicos() {
   return (
     <>
-      <PageTitleBox />
+      <section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center page-content">
+        <h1>Seviços</h1>
+        <p>construindo e cuidando de uma infinidade de sonhos!</p>
+        <div class="page_nav">
+      <span>Você está aqui:</span> 
+      <a href="/">Home</a> <span>
+          <i class="fa fa-angle-double-right"></i>Serviços </span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
       <div className="contato-box-main">
         <div className="container">
           <div className="row">

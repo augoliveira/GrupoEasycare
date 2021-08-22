@@ -1,18 +1,4 @@
 import React from "react";
-import dynamic from "next/dynamic";
-import Skeleton from "react-loading-skeleton";
-
-import PageTitleBox from "../components/PageTitleBox servicos/PageTitleBox";
-import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
-//import OurTeam from "";
-import FeaturedProducts from "../components/FeaturedProducts/FeaturedProducts";
-const OurTeam = dynamic(
-  () => import("../components/OurTeam/OurTeam.container"),
-  {
-    loading: () => <OurTeamLoader />,
-    ssr: false,
-  }
-);
 
 export default function Blog() {
   return (

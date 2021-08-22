@@ -1,19 +1,4 @@
 import React from "react";
-import dynamic from "next/dynamic";
-
-
-
-import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
-//import OurTeam from "";
-import Formulario from "../components/Formulario/formulario";
-
-const OurTeam = dynamic(
-  () => import("../components/OurTeam/OurTeam.container"),
-  {
-    loading: () => <OurTeamLoader />,
-    ssr: false,
-  }
-);
 
 export default function portfoliodetalhe() {
   return (
@@ -76,8 +61,6 @@ export default function portfoliodetalhe() {
  </main>main
   
       
-     
-       <Formulario />
               
       </>
    
