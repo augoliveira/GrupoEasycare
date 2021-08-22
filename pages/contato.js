@@ -1,19 +1,8 @@
-import emailjs from "emailjs-com";
 import React from "react";
 
 export default function Contato() {
 
-  function sendEmail(e) {
-      e.preventDefault();
-
-  emailjs.sendForm('gmail', 'template_p39ar0s ', e.target, 'user_6NBZ49aog0wFyD1O1NJJI')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-  }
+  
   return (
     <>
       <section class="page_header padding-top">
@@ -104,15 +93,15 @@ export default function Contato() {
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="index.html" autocomplete="off">
+          <form action="" method="POST" autocomplete="off">
             <h3 class="title">Formulario de contato</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" id="inputname" name="name" class="input" />
               <label for="">Nome</label>
               <span>Seu nome</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="email" id="inputname" name="email" class="input" />
               <label for="">E-mail</label>
               <span>Seu E-mail</span>
             </div>
@@ -126,7 +115,7 @@ export default function Contato() {
               <label for="">Mensagem</label>
               <span>Mensagem</span>
             </div>
-            <input type="submit" value="Enviar" class="btn" />
+            <input type="submit" value="Enviar" class="btn1" />
           </form>
         </div>
       </div>

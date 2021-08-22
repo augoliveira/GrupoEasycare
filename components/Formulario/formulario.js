@@ -83,7 +83,7 @@ export default function formulario() {
               <label form="">Mensagem</label>
               <span>Mensagem</span>
             </div>
-            <input type="submit" value="Enviar" className="btn" />
+            <input type="submit" value="Enviar" className="btn1" />
           </form>
         </div>
       </div>

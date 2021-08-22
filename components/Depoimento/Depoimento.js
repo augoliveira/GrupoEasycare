@@ -9,7 +9,7 @@ export default function Depoimento() {
       <div className="container" data-aos="fade-up">
 
         <header className="section-header">
-          <h3>Testemunho</h3>
+          <h3>Depoimento</h3>
         </header>
 
         <div className="owl-carousel testimonials-carousel">

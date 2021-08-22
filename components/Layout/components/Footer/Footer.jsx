@@ -1,6 +1,4 @@
 import React from "react";
-import InstagramFeed from "../InstagramFeed/InstagramFeed";
-import FooterCopyright from "../FooterCopyright/FooterCopyright";
 
 export default function Footer() {
   return (
@@ -67,6 +65,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
+      
     </>
   );
 }

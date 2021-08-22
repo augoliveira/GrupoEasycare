@@ -735,12 +735,7 @@ nav.navbar.bootsnav ul.nav > li > a:before, nav.navbar ul.nav li.dropdown.on > a
 .about_box:hover, .about_box img,
 ul.social_icon li a,
 .work-filter li a:before,
-input[type="submit"]{
-  -moz-transition:all .3s ease;
-  -ms-transition:all .3s ease;
-  -o-transition:all .3s ease;
- -webkit-transition:all .3s ease;
-}
+
 
 
 

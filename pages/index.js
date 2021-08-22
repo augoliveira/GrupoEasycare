@@ -17,7 +17,14 @@ export default function Home() {
       <Depoimento />
       <Formulario />
 
-    </div>
-
+    
+    <body>
+      <button class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=556198581779&text=Hello%2C%20World" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+    </button>
+    </body>
+</div>
   );
 }
