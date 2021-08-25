@@ -71,6 +71,8 @@ class MyDocument extends Document {
           <meta name="description" content="móveis planejados para todos os estados do Brasil. Móveis Para Sala. Móveis Para Banheiro. Móveis Para Cozinha. Móveis Para Quarto. Planejados De Qualidade. Modelos:
            Cozinha Planejada, Sala Planejada, Quarto Planejado, Banheiro Planejado." />
           <meta name="author" content="Augusto desenvolvedor" />
+          
+
 
           <link
             rel="shortcut icon"
@@ -137,6 +139,7 @@ class MyDocument extends Document {
         
           <Main />
           <NextScript />
+          
 
           <script src="/js/popper.min.js"></script>
 

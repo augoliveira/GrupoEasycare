@@ -223,7 +223,7 @@ export default function servicos() {
         <span className="circle one"></span>
         <span className="circle two"></span>
 
-        <form action="index.html" autocomplete="off">
+        <form action="https://api.staticforms.xyz/submit" method="post">
           <h3 className="title">Formulario de contato</h3>
           <div className="input-container">
             <input type="text" name="name" className="input" />
@@ -239,13 +239,17 @@ export default function servicos() {
             <input type="tel" name="phone" className="input" />
             <label form="">Telefone</label>
             <span>Seu telefone</span>
+            <input type="hidden" name="accessKey" value="3da266d4-4bba-490f-ab5c-c85836cd3ca8"/>
+            <input type="hidden" name="subject" value="Contact us from - example.com" />
+        <input type="hidden" name="replyTo" value="@"/>
+        <input type="hidden" name="redirectTo" value="https://grupoeasycare.com.br/contato/success"/>
           </div>
           <div className="input-container textarea">
             <textarea name="message" className="input"></textarea>
             <label form="">Mensagem</label>
             <span>Mensagem</span>
           </div>
-          <input type="submit" value="Enviar" className="btn" />
+          <input type="submit" value="Enviar" className="btn1" />
         </form>
       </div>
     </div>
