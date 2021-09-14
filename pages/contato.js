@@ -1,7 +1,24 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 export default function Contato() {
 
+  function sendEmail(e) {
+    e.preventDefault();
+
+emailjs.sendForm('service_dr9qz5r', 'template_7gs2kb9', e.target, 'user_NZAymuSZHwv0ESY8PdBfB')
+
+    .then((result) => {
+        alert("Mensagem enviada com sucesso! 👍");
+       
+    }, (error) => {
+        alert(error.message)
+        
+    });
+    e.target.reset()
+
+
+}
   
   return (
     <>
@@ -93,7 +110,7 @@ export default function Contato() {
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="" method="POST" autocomplete="off">
+          <form onSubmit={sendEmail}>
             <h3 class="title">Formulario de contato</h3>
             <div class="input-container">
               <input type="text" id="inputname" name="name" class="input" />

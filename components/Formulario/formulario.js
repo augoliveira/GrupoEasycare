@@ -1,5 +1,25 @@
 import React from "react";
+import emailjs from "emailjs-com";
+
+
 export default function formulario() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+emailjs.sendForm('service_dr9qz5r', 'template_7gs2kb9', e.target, 'user_NZAymuSZHwv0ESY8PdBfB')
+
+    .then((result) => {
+        alert("Mensagem enviada com sucesso! 👍");
+       
+    }, (error) => {
+        alert(error.message)
+        
+    });
+    e.target.reset()
+
+
+}
   return (
 
 
@@ -61,7 +81,7 @@ export default function formulario() {
           <span className="circle one"></span>
           <span className="circle two"></span>
 
-          <form action="index.html" autocomplete="off">
+          <form onSubmit={sendEmail}>
             <h3 className="title">Formulario de contato</h3>
             <div className="input-container">
               <input type="text" name="name" className="input" />

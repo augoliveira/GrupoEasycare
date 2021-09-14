@@ -28,7 +28,7 @@ export default function Depoimento() {
           </div>
 
           <div className="testimonial-item">
-            <img src="assets/img/testimonial-2.jpg" className="testimonial-img" alt=""/>
+            <img src="assets/img/testimonial-1.jpg" className="testimonial-img" alt=""/>
             <h3>Vanessa Almeida</h3>
             <p>
               <img src="assets/img/quote-sign-left.png" className="quote-sign-left" alt=""/>
